@@ -39,7 +39,7 @@ bot.on('message', msg => {
     
     if(msg.content === "MAICK" || msg.content === 'maick') {
         b = b + 1;
-        msg.reply(b , "bolsonaro")
+        msg.reply(b , "----bolsonaro")
     }
 
 })
