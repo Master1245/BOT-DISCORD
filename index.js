@@ -51,3 +51,11 @@ bot.on('message', msg => {
     }
 
 })
+
+bot.on('message', msg => {
+    
+    if(msg.content === "Jotaro" || msg.content === 'JOTARO'|| msg.content === 'jotaro'|| msg.content === 'jojo'|| msg.content === 'JOJO') {
+        msg.reply("DIO")
+    }
+
+})
