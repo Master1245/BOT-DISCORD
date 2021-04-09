@@ -34,12 +34,12 @@ bot.on('message', msg => {
 parte para contador de bolsonaro
 */
 
-let f = 0;
+let b = 0;
 bot.on('message', msg => {
     
-    if(msg.content === "F" || msg.content === 'f') {
-        f = f + 1;
-        msg.reply(f)
+    if(msg.content === "MAICK" || msg.content === 'maick') {
+        b = b + 1;
+        msg.reply(b , "bolsonaro")
     }
 
 })
