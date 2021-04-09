@@ -29,7 +29,10 @@ bot.on('message', msg => {
     }
 
 })
+/*
 
+parte para contador de bolsonaro
+*/
 
 let f = 0;
 bot.on('message', msg => {
