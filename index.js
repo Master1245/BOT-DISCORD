@@ -29,3 +29,14 @@ bot.on('message', msg => {
     }
 
 })
+
+
+let f = 0;
+bot.on('message', msg => {
+    
+    if(msg.content === "F" || msg.content === 'f') {
+        f = f + 1;
+        msg.reply(f)
+    }
+
+})
