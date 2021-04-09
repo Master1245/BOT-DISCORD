@@ -46,7 +46,7 @@ bot.on('message', msg => {
 
 bot.on('message', msg => {
     
-    if(msg.content.ciEqualsInner("DIO")) {
+    if(msg.content.ciEquals("DIO")) {
         msg.reply("JOTARO")
     }
 
