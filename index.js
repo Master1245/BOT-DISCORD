@@ -43,3 +43,13 @@ bot.on('message', msg => {
     }
 
 })
+
+bot.on('message', msg => {
+    
+    if(msg.content === "DIO" || msg.content === 'Dio'|| msg.content === 'dio') {
+        msg.reply("JOTARO")
+    }
+
+})
+
+
